@@ -1,0 +1,138 @@
+{
+ "generated": "2026-11-24T14:12:35Z",
+ "latest": {
+  "pravo-lipetsk|russia/lipetsk/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 1686,
+    "current": 1658,
+    "gone": 0,
+    "held": 1658,
+    "newest_in_repo": "2026-10-23",
+    "pending": 28,
+    "repo": 1658,
+    "source_in_scope": 1686
+   },
+   "check_id": "ru-pravo-lipetsk-20261124T141053Z",
+   "commits": {
+    "count": 6,
+    "from": "4e0eb1399f5b4c893bd4e4b7a59fa08bf5e44250",
+    "to": "d08af9de3c8eef55c1c4e4e364fc8924a13b49cc"
+   },
+   "corpus": "russia/lipetsk/acts",
+   "error": null,
+   "finished": "2026-11-24T14:12:34Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region48: 1686 law-type documents listed (every page read); 1658 held here; 28 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
+   "published": {
+    "added": [
+     "4800202611100001",
+     "4800202611130002",
+     "4800202611160006",
+     "4800202611170001",
+     "4800202611170002",
+     "4800202611170003",
+     "4800202611180001",
+     "4800202611180002",
+     "4800202611180003",
+     "4800202611180004",
+     "4800202611180005",
+     "4800202611180006",
+     "4800202611180007",
+     "4800202611180008",
+     "4800202611180009",
+     "4800202611180010",
+     "4800202611180011",
+     "4800202611180012",
+     "4800202611180013",
+     "4800202611180014",
+     "4800202611180015",
+     "4800202611180016",
+     "4800202611180017",
+     "4800202611180018",
+     "4800202611180019",
+     "4800202611180020",
+     "4800202611180021",
+     "4800202611180022"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 12,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [
+     "4800202611100001",
+     "4800202611130002",
+     "4800202611160006",
+     "4800202611170001",
+     "4800202611170002",
+     "4800202611170003",
+     "4800202611180001",
+     "4800202611180002",
+     "4800202611180003",
+     "4800202611180004",
+     "4800202611180005",
+     "4800202611180006",
+     "4800202611180007",
+     "4800202611180008",
+     "4800202611180009",
+     "4800202611180010",
+     "4800202611180011",
+     "4800202611180012",
+     "4800202611180013",
+     "4800202611180014",
+     "4800202611180015",
+     "4800202611180016",
+     "4800202611180017",
+     "4800202611180018",
+     "4800202611180019",
+     "4800202611180020",
+     "4800202611180021",
+     "4800202611180022"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "1686 law-type documents in block region48; newest published 2026-11-18",
+   "source": "pravo-lipetsk",
+   "started": "2026-11-24T14:10:53Z",
+   "unexplained": 0,
+   "update": {
+    "append": {
+     "commits": 5,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261124-001.json"
+    ]
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 13,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 13,
+    "versions_checked": 312,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}
