@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T14:12:35Z",
+ "generated": "2026-11-25T07:00:44Z",
  "latest": {
   "pravo-lipetsk|russia/lipetsk/acts": {
    "attempt": 1,
@@ -12,58 +12,31 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1686,
-    "current": 1658,
+    "checked": 1687,
+    "current": 1686,
     "gone": 0,
-    "held": 1658,
-    "newest_in_repo": "2026-10-23",
-    "pending": 28,
-    "repo": 1658,
-    "source_in_scope": 1686
+    "held": 1686,
+    "newest_in_repo": "2026-11-18",
+    "pending": 1,
+    "repo": 1686,
+    "source_in_scope": 1687
    },
-   "check_id": "ru-pravo-lipetsk-20261124T141053Z",
+   "check_id": "ru-pravo-lipetsk-20261125T061419Z",
    "commits": {
-    "count": 6,
-    "from": "4e0eb1399f5b4c893bd4e4b7a59fa08bf5e44250",
-    "to": "d08af9de3c8eef55c1c4e4e364fc8924a13b49cc"
+    "count": 2,
+    "from": "4c51c9e1ce27b4f5340133d08514c35b28e01040",
+    "to": "b7e7a32ddf92868600c4b02cebe3f15514de43c0"
    },
    "corpus": "russia/lipetsk/acts",
    "error": null,
-   "finished": "2026-11-24T14:12:34Z",
+   "finished": "2026-11-25T06:15:24Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region48: 1686 law-type documents listed (every page read); 1658 held here; 28 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "note": "publication.pravo.gov.ru, block region48: 1687 law-type documents listed (every page read); 1686 held here; 1 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
    "outcome": "changed",
    "published": {
     "added": [
-     "4800202611100001",
-     "4800202611130002",
-     "4800202611160006",
-     "4800202611170001",
-     "4800202611170002",
-     "4800202611170003",
-     "4800202611180001",
-     "4800202611180002",
-     "4800202611180003",
-     "4800202611180004",
-     "4800202611180005",
-     "4800202611180006",
-     "4800202611180007",
-     "4800202611180008",
-     "4800202611180009",
-     "4800202611180010",
-     "4800202611180011",
-     "4800202611180012",
-     "4800202611180013",
-     "4800202611180014",
-     "4800202611180015",
-     "4800202611180016",
-     "4800202611180017",
-     "4800202611180018",
-     "4800202611180019",
-     "4800202611180020",
-     "4800202611180021",
-     "4800202611180022"
+     "4800202611240003"
     ],
     "changed": [],
     "removed": []
@@ -73,45 +46,18 @@
    "schema": "lexifina-check/1",
    "seen": {
     "added": [
-     "4800202611100001",
-     "4800202611130002",
-     "4800202611160006",
-     "4800202611170001",
-     "4800202611170002",
-     "4800202611170003",
-     "4800202611180001",
-     "4800202611180002",
-     "4800202611180003",
-     "4800202611180004",
-     "4800202611180005",
-     "4800202611180006",
-     "4800202611180007",
-     "4800202611180008",
-     "4800202611180009",
-     "4800202611180010",
-     "4800202611180011",
-     "4800202611180012",
-     "4800202611180013",
-     "4800202611180014",
-     "4800202611180015",
-     "4800202611180016",
-     "4800202611180017",
-     "4800202611180018",
-     "4800202611180019",
-     "4800202611180020",
-     "4800202611180021",
-     "4800202611180022"
+     "4800202611240003"
     ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1686 law-type documents in block region48; newest published 2026-11-18",
+   "snapshot": "1687 law-type documents in block region48; newest published 2026-11-24",
    "source": "pravo-lipetsk",
-   "started": "2026-11-24T14:10:53Z",
+   "started": "2026-11-25T06:14:19Z",
    "unexplained": 0,
    "update": {
     "append": {
-     "commits": 5,
+     "commits": 1,
      "corrections": null,
      "extended_acts": [
       "zakony-2026"
@@ -119,7 +65,7 @@
      "new_acts": []
     },
     "parts": [
-     "95-watch-20261124-001.json"
+     "95-watch-20261125-001.json"
     ]
    },
    "verify": {
@@ -129,7 +75,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 13,
-    "versions_checked": 312,
+    "versions_checked": 313,
     "versions_differ": 0
    }
   }
