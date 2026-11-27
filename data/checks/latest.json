@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T06:17:47Z",
+ "generated": "2026-11-27T06:10:06Z",
  "latest": {
   "pravo-lipetsk|russia/lipetsk/acts": {
    "attempt": 1,
@@ -21,11 +21,11 @@
     "repo": 1687,
     "source_in_scope": 1687
    },
-   "check_id": "ru-pravo-lipetsk-20261126T054036Z",
+   "check_id": "ru-pravo-lipetsk-20261127T053606Z",
    "commits": null,
    "corpus": "russia/lipetsk/acts",
    "error": null,
-   "finished": "2026-11-26T05:41:24Z",
+   "finished": "2026-11-27T05:37:01Z",
    "flags": [],
    "gap": 0,
    "note": "publication.pravo.gov.ru, block region48: 1687 law-type documents listed (every page read); 1687 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
@@ -45,7 +45,7 @@
    },
    "snapshot": "1687 law-type documents in block region48; newest published 2026-11-24",
    "source": "pravo-lipetsk",
-   "started": "2026-11-26T05:40:36Z",
+   "started": "2026-11-27T05:36:06Z",
    "unexplained": 0,
    "update": {
     "parts": []
