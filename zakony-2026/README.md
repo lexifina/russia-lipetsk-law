@@ -1,6 +1,6 @@
 # Lipetsk Oblast: catalogue of the laws published in 2026 (facts only, no law text)
 
-Законы 2026 · 23 versions, from 2026-02-04 (latest in force: 2026-11-24) · <http://publication.pravo.gov.ru/documents/block/region48>
+Законы 2026 · 24 versions, from 2026-02-04 (latest in force: 2026-11-27) · <http://publication.pravo.gov.ru/documents/block/region48>
 
 | Provision | File | Changes | Last changed |
 | --- | --- | ---: | --- |
@@ -31,6 +31,9 @@
 | Закон № 31-ОЗ | [31-oz.md](31-oz.md) | 1 | 2026-11-18 |
 | Закон № 32-ОЗ | [32-oz.md](32-oz.md) | 1 | 2026-11-18 |
 | Закон № 33-ОЗ | [33-oz.md](33-oz.md) | 1 | 2026-11-24 |
+| Закон № 34-ОЗ | [34-oz.md](34-oz.md) | 1 | 2026-11-27 |
+| Закон № 35-ОЗ | [35-oz.md](35-oz.md) | 1 | 2026-11-27 |
+| Закон № 36-ОЗ | [36-oz.md](36-oz.md) | 1 | 2026-11-27 |
 | Закон № 4-ОЗ | [4-oz.md](4-oz.md) | 1 | 2026-10-22 |
 | Закон № 5-ОЗ | [5-oz.md](5-oz.md) | 1 | 2026-11-13 |
 | Закон № 6-ОЗ | [6-oz.md](6-oz.md) | 1 | 2026-11-10 |
