@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T06:10:06Z",
+ "generated": "2026-11-28T06:24:25Z",
  "latest": {
   "pravo-lipetsk|russia/lipetsk/acts": {
    "attempt": 1,
@@ -12,26 +12,34 @@
     "sampled": 2
    },
    "census": {
-    "checked": 1687,
+    "checked": 1690,
     "current": 1687,
     "gone": 0,
     "held": 1687,
     "newest_in_repo": "2026-11-24",
-    "pending": 0,
+    "pending": 3,
     "repo": 1687,
-    "source_in_scope": 1687
+    "source_in_scope": 1690
    },
-   "check_id": "ru-pravo-lipetsk-20261127T053606Z",
-   "commits": null,
+   "check_id": "ru-pravo-lipetsk-20261128T054346Z",
+   "commits": {
+    "count": 2,
+    "from": "db668890bacddeb1617bfa9cbcf37ec5550a09ed",
+    "to": "51625e3b167772df800fdf4a01cdceebe0fd23b7"
+   },
    "corpus": "russia/lipetsk/acts",
    "error": null,
-   "finished": "2026-11-27T05:37:01Z",
+   "finished": "2026-11-28T05:44:38Z",
    "flags": [],
    "gap": 0,
-   "note": "publication.pravo.gov.ru, block region48: 1687 law-type documents listed (every page read); 1687 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
-   "outcome": "no-change",
+   "note": "publication.pravo.gov.ru, block region48: 1690 law-type documents listed (every page read); 1687 held here; 3 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
    "published": {
-    "added": [],
+    "added": [
+     "4800202611270009",
+     "4800202611270010",
+     "4800202611270011"
+    ],
     "changed": [],
     "removed": []
    },
@@ -39,16 +47,30 @@
    "runner": "lawwatch russia (65e3dde363)",
    "schema": "lexifina-check/1",
    "seen": {
-    "added": [],
+    "added": [
+     "4800202611270009",
+     "4800202611270010",
+     "4800202611270011"
+    ],
     "changed": [],
     "removed": []
    },
-   "snapshot": "1687 law-type documents in block region48; newest published 2026-11-24",
+   "snapshot": "1690 law-type documents in block region48; newest published 2026-11-27",
    "source": "pravo-lipetsk",
-   "started": "2026-11-27T05:36:06Z",
+   "started": "2026-11-28T05:43:46Z",
    "unexplained": 0,
    "update": {
-    "parts": []
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261128-001.json"
+    ]
    },
    "verify": {
     "cycle_days": 1,
@@ -57,7 +79,7 @@
     "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
     "ok": true,
     "swept": 13,
-    "versions_checked": 313,
+    "versions_checked": 314,
     "versions_differ": 0
    }
   }
